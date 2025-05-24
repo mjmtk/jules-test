@@ -1,0 +1,121 @@
+{
+  "client_statuses": [
+    { "code": "active", "name": "Active", "description": "Currently receiving services", "is_active": true, "display_order": 1, "color_hex": "#4CAF50" },
+    { "code": "inactive", "name": "Inactive", "description": "Not currently active", "is_active": true, "display_order": 2, "color_hex": "#808080" },
+    { "code": "pending", "name": "Pending", "description": "Awaiting processing", "is_active": true, "display_order": 3, "color_hex": "#FFC107" },
+    { "code": "deleted", "name": "Deleted", "description": "Client record soft deleted", "is_active": false, "display_order": 4, "color_hex": "#F44336" }
+  ],
+  "languages": [
+    { "code": "en-NZ", "name": "English (New Zealand)", "native_name": "English", "is_active": true, "display_order": 1 },
+    { "code": "mi-NZ", "name": "Te Reo Māori", "native_name": "Te Reo Māori", "is_active": true, "display_order": 2 },
+    { "code": "sm-NZ", "name": "Samoan (New Zealand)", "native_name": "Gagana Samoa", "is_active": true, "display_order": 3 }
+  ],
+  "pronouns": [
+    { "code": "he-him", "display_text": "He/Him", "is_active": true, "display_order": 1 },
+    { "code": "she-her", "display_text": "She/Her", "is_active": true, "display_order": 2 },
+    { "code": "they-them", "display_text": "They/Them", "is_active": true, "display_order": 3 },
+    { "code": "prefer-not-to-say", "display_text": "Prefer not to say", "is_active": true, "display_order": 4 }
+  ],
+  "sex_values": [
+    { "code": "male", "name": "Male", "is_active": true, "display_order": 1 },
+    { "code": "female", "name": "Female", "is_active": true, "display_order": 2 },
+    { "code": "intersex", "name": "Intersex", "is_active": true, "display_order": 3 },
+    { "code": "unknown", "name": "Unknown", "is_active": true, "display_order": 4 }
+  ],
+  "clients": [
+    {
+      "id": "1f9b7e9a-7f9a-4a3d-9d0c-1b1f9b7e9a7f",
+      "first_name": "Awhina",
+      "last_name": "Kaa",
+      "date_of_birth": "1992-08-15",
+      "email": "awhina.kaa@example.co.nz",
+      "phone": "+64 21 123 4567",
+      "status_code": "active",
+      "primary_language_code": "mi-NZ",
+      "pronoun_code": "she-her",
+      "sex": "female",
+      "interpreter_needed": false,
+      "created_at": "2023-10-01T10:00:00Z",
+      "updated_at": "2024-03-15T14:30:00Z",
+      "created_by": "user-uuid-1",
+      "updated_by": "user-uuid-2"
+    },
+    {
+      "id": "8c7b2e3a-6f5e-4e3d-8c1b-9b7e8c7b2e3a",
+      "first_name": "Ben",
+      "last_name": "Williams",
+      "date_of_birth": "1985-03-22",
+      "email": "ben.williams@example.com",
+      "phone": "+64 22 987 6543",
+      "status_code": "inactive",
+      "primary_language_code": "en-NZ",
+      "pronoun_code": "he-him",
+      "sex": "male",
+      "interpreter_needed": true,
+      "created_at": "2022-05-20T09:00:00Z",
+      "updated_at": "2023-11-10T11:20:00Z",
+      "created_by": "user-uuid-3",
+      "updated_by": "user-uuid-3"
+    },
+    {
+      "id": "f40e8400-e29b-41d4-a716-446655440000",
+      "first_name": "Leilani",
+      "last_name": "Taufa",
+      "date_of_birth": "2005-11-30",
+      "email": "leilani.taufa@example.com",
+      "phone": "+64 27 555 1234",
+      "status_code": "pending",
+      "primary_language_code": "sm-NZ",
+      "pronoun_code": "they-them",
+      "sex": "female",
+      "interpreter_needed": false,
+      "created_at": "2024-05-01T16:45:00Z",
+      "updated_at": "2024-05-01T16:45:00Z",
+      "created_by": "user-uuid-4",
+      "updated_by": "user-uuid-4"
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "first_name": "David",
+      "last_name": "Lee",
+      "date_of_birth": "1978-01-10",
+      "email": "david.lee@example.com",
+      "phone": null,
+      "status_code": "active",
+      "primary_language_code": "en-NZ",
+      "pronoun_code": "he-him",
+      "sex": "male",
+      "interpreter_needed": false,
+      "created_at": "2021-02-11T08:10:00Z",
+      "updated_at": "2024-04-22T10:05:00Z",
+      "created_by": "user-uuid-5",
+      "updated_by": "user-uuid-6"
+    }
+  ],
+  "reference_data_payload": {
+    "client_statuses": [
+      { "code": "active", "name": "Active", "description": "Currently receiving services" },
+      { "code": "inactive", "name": "Inactive", "description": "Not currently active" },
+      { "code": "pending", "name": "Pending", "description": "Awaiting processing" },
+      { "code": "deleted", "name": "Deleted", "description": "Client record soft deleted" }
+    ],
+    "languages": [
+      { "code": "en-NZ", "name": "English (New Zealand)", "native_name": "English" },
+      { "code": "mi-NZ", "name": "Te Reo Māori", "native_name": "Te Reo Māori" },
+      { "code": "sm-NZ", "name": "Samoan (New Zealand)", "native_name": "Gagana Samoa" }
+    ],
+    "pronouns": [
+      { "code": "he-him", "display_text": "He/Him" },
+      { "code": "she-her", "display_text": "She/Her" },
+      { "code": "they-them", "display_text": "They/Them" },
+      { "code": "prefer-not-to-say", "display_text": "Prefer not to say" }
+    ],
+    "sex_values": [
+      { "code": "male", "name": "Male" },
+      { "code": "female", "name": "Female" },
+      { "code": "intersex", "name": "Intersex" },
+      { "code": "unknown", "name": "Unknown" }
+    ],
+    "cache_expires_at": "2024-12-31T23:59:59Z"
+  }
+}

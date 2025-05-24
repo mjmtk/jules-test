@@ -1,0 +1,5 @@
+{
+  "/api/v1/clients": "/clients",
+  "/api/v1/clients/:id": "/clients/:id",
+  "/api/v1/reference-data/": "/reference_data_payload"
+}
